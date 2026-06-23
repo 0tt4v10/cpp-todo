@@ -12,29 +12,33 @@ Tasks are saved to a file and persist after closing the program.
 
 ## How to Compile
 
-\```bash
+```bash
 g++ todo.cpp -o todo
-\```
+```
 
 ## How to Run
 
-\```bash
+```bash
 # Linux / WSL:
 ./todo
 
 # Windows:
 .\todo.exe
-\```
+```
 
 ## Requirements
 
-\```bash
-# Linux / WSL:
+### Linux / WSL
+```bash
 sudo apt install g++
-\```
+```
+
+### Windows
+- MinGW or WSL: https://learn.microsoft.com/en-us/windows/wsl/install
+- Git: https://git-scm.com/download/win
 
 ## Clone with SSH
 
-\```bash
+```bash
 git clone git@github.com:0tt4v10/cpp-todo.git
-\```
+```
